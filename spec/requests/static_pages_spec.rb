@@ -24,4 +24,12 @@ RSpec.describe "Static pages", type: :request do
       expect(response.body).to include("<title>About Us | Ruby on Rails Tutorial Sample App</title>")
     end
   end
+
+  describe "Contact page" do
+    it "should have the content 'Contact' and the right title" do
+      get static_pages_contact_path
+      expect(response.body).to include("Contact")
+      expect(response.body).to include("<title>Contact | Ruby on Rails Tutorial Sample App</title>")
+    end
+  end
 end
