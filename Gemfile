@@ -5,7 +5,7 @@ gem "rails", "~> 7.2.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 gem "sassc-rails"
-gem "bootstrap-sass", "~> 3.3.7"
+gem "bootstrap-sass", "~> 3.4.1"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
