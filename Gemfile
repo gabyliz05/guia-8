@@ -36,7 +36,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   # Testing and database cleaner gems for Rspec
-  gem "rspec-rails", "~> 6.0"
+  gem "rspec-rails", "~> 8.1"
   gem 'capybara'
   gem 'database_cleaner'
 end
